@@ -13,20 +13,34 @@ a {
 	text-decoration: none;
 }
 
+* {
+	color: #191919;
+}
+
+body {
+	background-image: url(../images/concrete-texture.png);
+	background-repeat: repeat;
+}
+
 /*fonts*/
 @font-face {
-    font-family: 'neutraface';
-    src: url('../fonts/neutraface.ttf');
+    font-family: 'adam-cg';
+    src: url(../fonts/adam-cg.otf);
 }
 
 @font-face {
     font-family: 'averta';
-    src: url('../fonts/averta.otf');
+    src: url(../fonts/averta.otf);
 }
 
 @font-face {
     font-family: 'helvetica';
-    src: url('../fonts/helvetica.otf');
+    src: url(../fonts/helvetica.otf);
+}
+
+@font-face {
+    font-family: 'rainbow-bridge';
+    src: url(../fonts/rainbow-bridge.ttf);
 }
 
 /*navigation bar*/
@@ -63,6 +77,28 @@ div#main {
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
+}
+
+div#main > div {
+	font-family: 'rainbow-bridge', sans-serif;
+	color: 	#191919;
+	border: 5px solid #191919;
+	padding: 20px;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+#festival-title {
+	font-size: 5em;
+}
+
+#festival-year {
+	font-family: 'adam-cg', sans-serif;
+	font-size: 1.4em;
 }
 
 /*featured events*/
@@ -113,7 +149,7 @@ p.event-description {
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 }
 
 footer {
