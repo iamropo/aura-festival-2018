@@ -12,17 +12,22 @@ ul {
 a {
 	text-decoration: none;
 }
-/*fonts*/
 
+/*fonts*/
 @font-face {
     font-family: 'neutraface';
     src: url('../fonts/neutraface.ttf');
 }
 
-* {
-/*		font-family: 'Roboto', 'Raleway', sans-serif;
-*/}
+@font-face {
+    font-family: 'averta';
+    src: url('../fonts/averta.otf');
+}
 
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/helvetica.otf');
+}
 
 /*navigation bar*/
 nav {
@@ -30,8 +35,9 @@ nav {
 	left: 0;
 	top: 0;
 	width: 100%;
-/*	font-family: 'Roboto', 'Raleway', sans-serif;
-*/}
+	font-size: 1.1em;
+	font-family: 'helvetica';
+}
 
 nav > ul {
 	width: 100%;
@@ -63,6 +69,8 @@ div#main {
 .section-title {
 	text-align: center;
 	font-family: 'neutraface', sans-serif;
+	font-family: 'helvetica';
+	font-size: 1.4em;
 }
 
 div#featured-events ul {
@@ -73,6 +81,7 @@ div#featured-events ul {
 
 .featured-event {
 	text-align: center;
+  font-family: 'helvetica';
 }
 
 div#featured-events ul li {
@@ -80,7 +89,8 @@ div#featured-events ul li {
 }
 
 p.event-description {
-	font-size: .8em;
+	font-size: .9em;
+	font-family: 'helvetica';
 }
 
 /*contacts*/
@@ -98,23 +108,18 @@ p.event-description {
 }
 
 #contact-details > ul {
-	font-size: .8em;
+	font-size: .9em;
+	font-family: 'helvetica';
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
 }
 
-/*#contact-section {
-	margin-top: 20px;
-	font-size: .8em;
-	display: flex;
-	justify-content: space-around;
-}*/
-
 footer {
 	text-align: center;
 	margin: 20px;
 	font-size: .6em;
+	font-family: 'helvetica';
 }
 
