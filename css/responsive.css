@@ -19,9 +19,37 @@
 	div#featured-events ul li {
 		width: 40%;
 	}
+	
+	#contact-details > a {
+		width: 10%;
+	}
 
 	footer {
 		font-size: .7em;
+	}
+
+}
+
+@media all and (min-width: 1024px) {
+
+	nav > ul > li {
+		margin: 20px;
+	}
+
+	.section {
+		padding: 0 20% 0 20%;
+	}
+
+}
+
+@media all and (min-width: 1600px) {
+	
+	div#main {
+		height: 50%;
+	}
+
+	.section {
+		padding: 0 30% 0 0%;
 	}
 
 }
