@@ -96,9 +96,14 @@ div#main > div {
 	font-size: 5em;
 }
 
-#festival-year {
+#festival-year, #festival-date {
 	font-family: 'adam-cg', sans-serif;
 	font-size: 1.4em;
+}
+
+#festival-date {
+	margin-top: 10px;
+	font-size: .8em;
 }
 
 /*featured events*/
